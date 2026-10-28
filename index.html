@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Assignment 3.2 - Vivek's Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f1f5f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #173b67;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #102a43;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+        }
+
+        section {
+            background-color: white;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 900px;
+            border-radius: 10px;
+        }
+
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .image-card {
+            width: 250px;
+            text-align: center;
+            background-color: #f1f5f9;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .image-card img {
+            width: 250px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #173b67;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to Vivek's Portfolio</h1>
+        <p>Student | Robotics and Automation | Web Development Learner</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#images">Images</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! My name is Vivek. I am a student interested in
+            robotics, automation, programming, and web development.
+            I enjoy learning new technologies and building projects.
+        </p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p>I have completed Class 12 with Physics, Chemistry, and Mathematics.</p>
+        <p>I am interested in developing my technical skills.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Basic Java Programming</li>
+            <li>Robotics and Automation</li>
+        </ul>
+    </section>
+
+    <section id="images">
+        <h2>My Image Gallery</h2>
+        <p>Here are some images related to my profile and interests.</p>
+
+        <div class="image-gallery">
+
+            <div class="image-card">
+                <img
+                    src="./images/file_000000004a3c82089ef23d202b5ce5d5.png"
+                    alt="Portrait photo of Vivek for his personal portfolio"
+                    width="250"
+                    height="180">
+                <h3>My Profile</h3>
+                <p>A photo for my personal portfolio.</p>
+            </div>
+
+            <div class="image-card">
+                <img
+                    src="./images/What Is an Industrial Robot_.jpg"
+                    alt="Robotics project showing electronic components and a robot"
+                    width="250"
+                    height="180">
+                <h3>Industrial Robots</h3>
+                <p>My interest in robotics and technology.</p>
+            </div>
+
+            <div class="image-card">
+                <img
+                    src="./images/4598738255696862080 (1).jpg"
+                    alt="Student learning web development on a computer"
+                    width="250"
+                    height="180">
+                <h3>My Interests</h3>
+                <p>Learning new skills and exploring technology.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Name: Vivek</p>
+        <p>Email: vivekkashyap2309@gmail.com</p>
+        <p>phone:+91 6396654345</phone:>
+       
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Vivek's Portfolio. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
